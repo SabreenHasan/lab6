@@ -1,0 +1,39 @@
+body {
+	font-family: Cambria Math;
+}
+
+button {
+	background-color: #0066cc;
+	font-family: Arial;
+	width: 8%;
+	color: white;
+}
+
+button:hover {
+	background-color: #004080;
+}
+
+hr {
+	color: 2px solid #4d4d4d;
+}
+
+input {
+	font-size: 17px;
+	color: white;
+	width: 25%;
+}
+
+.search {
+	background-color: #e6e6e6;
+	height: 400px;
+}
+
+.title {
+	background-color: #8600b3;
+	text-align: center;
+	color: white;
+	align-items: center;
+	height: 100px;
+	font-family: Cooper Black;
+	justify-content: center;
+}
