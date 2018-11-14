@@ -21,7 +21,8 @@ function load () {
         if (httpReq.status === 200)
         {
             var response = httpReq.responseText;
-            alert(response);
+            var input = document.getElementById("userInput").value;
+            document.getElementById("result").innerHTML = response;
         }
         else
         {
