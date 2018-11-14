@@ -6,12 +6,19 @@ button {
 	background-color: #0066cc;
 	font-family: Arial;
 	width: 8%;
+	height: 15%;
 	color: white;
+	border-radius: 25px;
+	font-size: 17px;
 }
 
 button:hover {
 	background-color: #004080;
 }
+
+button.allDefinitions {
+	width: 15%;
+} 
 
 hr {
 	color: 2px solid #4d4d4d;
@@ -19,7 +26,7 @@ hr {
 
 input {
 	font-size: 17px;
-	color: white;
+	color: black;
 	width: 25%;
 }
 
