@@ -8,8 +8,11 @@ window.onload = function () {
 
     e.preventDefault();
     httpReq = new XMLHttpRequest();
+
+    var $word;
+    var input = document.getElementById("userInput").value;
     
-    var url = "request.php?q=definition";
+    var url = "request.php?q=" + input;
     httpReq.onreadystatechange = load;
     httpReq.open('GET', url);
     httpReq.send();
